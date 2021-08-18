@@ -1,3 +1,3 @@
 # Project3_RareWineMarketplace
 
-![Wine Bottles](/Images/super_tuscan_bottles.jpeg)
+![Wine Bottles](/Images/tuscany_wine.jpeg)
