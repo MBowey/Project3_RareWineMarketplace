@@ -11,11 +11,11 @@ contract WineRegistry is ERC721Full {
     Counters.Counter token_ids;
 
     struct Wine {
-        string bottle_id;               //
+        //string bottle_id;               //
         string name;
         string variety;                 // type of wine/grape (cab sauv, pinot, etc.)
         uint vintage;                   // year
-        string region; 
+        // string region; 
         string producer;
         // string classification;       // each country has its own classification (Italy - DOCG, France - AOC, etc. )
         string ownership; 
@@ -36,11 +36,11 @@ contract WineRegistry is ERC721Full {
 
     function registerWine(
         address owner, 
-        string memory bottle_id,
+        //string memory bottle_id,
         string memory name, 
         string memory variety, 
         uint vintage,
-        string memory region,
+        //string memory region,
         string memory producer,
         // string memory classification,
         string memory ownership, 
@@ -59,11 +59,11 @@ contract WineRegistry is ERC721Full {
             _setTokenURI(token_id, token_uri);
 
             wine_collection[token_id] = Wine(
-                bottle_id, 
+                //bottle_id, 
                 name, 
                 variety,
                 vintage,
-                region,
+                //region,
                 producer,
                 // classification,
                 ownership,
