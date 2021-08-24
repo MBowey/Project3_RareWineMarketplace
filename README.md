@@ -8,4 +8,4 @@ This application is an online auction system for registering, trading and auctio
 
 ### Demo App
 
-Click [here](frontend/index.html) to launch the WineMarket application.
+Click [here](wine_market/frontend/index.html) to launch the WineMarket application.
