@@ -20,18 +20,18 @@ The two main objective of this project were:
 
 ## Tech Stack
 
-* FRONT-END:  
+* **FRONT-END:** 
     * React
     * Web3.js
     * Ant
     * Metamask
 
-* MIDDLEWARE: 
+* **MIDDLEWARE:** 
     * The Graph
     * IPFS
     * Etherscan
 
-* BACK-END: 
+* **BACK-END:** 
     * Hardhat
     * Remix 
 
