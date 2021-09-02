@@ -2,7 +2,7 @@
 
 **Contributors: Alice Lin, Andre Bacellar, Benny Adler, Michael Bowey, Rina Niles** 
 
-![Wine Bottles](/Images/tuscany_wine.png)
+![Wine Bottles](/Images/tuscany_wine.jpeg)
 
 
 ## Overview
