@@ -2,7 +2,7 @@
 
 **Contributors:** Alice Lin, Andre Bacellar, Benny Adler, Michael Bowey, Rina Niles 
 
-![Wine Bottles](/Images/crypto_wine.jpeg)
+![Wine Bottles](/Images/crypto_wine.png)
 
 
 ## Overview
@@ -21,10 +21,15 @@ The two main objective of this project were:
 ## Tech Stack
 
 * FRONT-END:  
-    * React, Web3.js, Ant, Metamask
+    * React
+    * Web3.js
+    * Ant
+    * Metamask
 
 * MIDDLEWARE: 
-    * The Graph, IPFS, Etherscan
+    * The Graph
+    * IPFS
+    * Etherscan
 
 * BACK-END: 
     * Hardhat
@@ -32,7 +37,7 @@ The two main objective of this project were:
 
 ## Installation
 
-* Step 1: Clone Github Repo and `cd` to the `wine-auction` directory
+* Step 1: Clone Github Repo and `cd` to the `Wine-Auction` directory
 
 * Step 2: Install dependencies
 
@@ -98,9 +103,9 @@ Below are the links to the Solidity Contracts:
 
 1. Bottle Registration [`YourCollectible.sol`](wine-auction/packages/hardhat/contracts/YourCollectible.sol)
 
-2. Marketplace Auction  * [`Auction.sol`](wine-auction/packages/hardhat/contracts/Auction.sol)
+2. Wine Auction  [`Auction.sol`](wine-auction/packages/hardhat/contracts/Auction.sol)
 
-3. Contract  [`YourContract.sol`](wine-auction/packages/hardhat/contracts/YourContract.sol)
+3. Overall Contract  [`YourContract.sol`](wine-auction/packages/hardhat/contracts/YourContract.sol)
 
 
 ## Front-End: User Interface
@@ -114,7 +119,7 @@ In terms of building the user interface, the process was simplified by being abl
 
 A main factor in determining the value of fine wines is 'Provenance', which refers to the purchase, ownership, and storage history of a wine.
 
-Currently, provenance for fine wines is determined by two main factors: 1) an expert who evaluates signs of authenticity, and 2) the reputation of the person selling wine.  Inspecting wine is expensive and time-consuming process; relying on the seller’s reputation is also risky for all the obvious reasons.
+Currently, provenance for fine wines is determined by two main factors: 1) an expert who evaluates signs of authenticity, and 2) the reputation of the person selling the wine.  Inspecting wine is expensive and time-consuming process; relying on the seller’s reputation is also risky for all the obvious reasons.
 
 Blockchain technology solves this problem, as it provides provenance through the minting of NFTs. With the VINO dapp, ff a winery were to specify in an asset contract that collectors could take physical delivery far into the future, the winery could begin to function like a bank. There could be a vibrant market trading digital wine contracts, backed by wine reserves which are held securely by the winery and rarely redeemed until the wine is ready for consumption. With smart chip technology, the temperature with which the wine was subjected to over time, as well as any tampering with the cork, can also be tracked and recorded on-chain for verification.
 
