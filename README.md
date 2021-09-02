@@ -2,7 +2,7 @@
 
 **Contributors: Alice Lin, Andre Bacellar, Benny Adler, Michael Bowey, Rina Niles** 
 
-![Wine Bottles](/Images/bitcoin_wine.png)
+![Wine Bottles](/Images/tuscany_wine.png)
 
 
 ## Overview
@@ -121,3 +121,10 @@ Blockchain technology solves this problem, as it provides provenance through the
 * If a holder decides they want to drink their bottle, they can burn their token in exchange for the physical bottle and receive an “Open bottle” NFT 
 * Open bottle tokens can be used to show off bottles the holder has previously owned but cannot be exchanged for a physical.
 * VINO makes money as a business by taking a small percentage of every transaction🤑🤑🤑
+
+## References
+
+* https://thegraph.com/blog/building-with-subgraph-studio
+* https://github.com/dabit3/openzeppelin-nft-api 
+* https://docs.scaffoldeth.io/scaffold-eth/ 
+* https://github.com/ourzora/core 
